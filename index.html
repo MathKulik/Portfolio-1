@@ -4,11 +4,17 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>Portifolio</title>
-		<link rel="stylesheet" href="style.css" />
+		<link rel="stylesheet" href="./styles/style.css" />
 		<meta charset="UTF-8" />
 	</head>
 	<body>
-		<header></header>
+		<header class="cabecalho">
+			<nav class="cabecalho__menu">
+				<a class="cabecalho__menu__link" href="index.html">Home</a>
+				<a class="cabecalho__menu__link" href="about.html">Sobre mim</a>
+				<a class="cabecalho__menu__link" href="curriculo.html">Currículo</a>
+			</nav>
+		</header>
 		<main class="apresentacao">
 			<section class="apresentacao__conteudo">
 				<h1 class="apresentacao__conteudo__titulo">
@@ -21,26 +27,27 @@
 					conversar?
 				</p>
 				<div class="apresentacao__links">
-					<a
-						target="_blank"
-						class="apresentacao__links__botao"
-						href="https://linkedin.com/in/Alexandre-Mir"
-						>LinkedIn</a
-					>
+					<h2 class="apresentacao__links__subtitulo">Acesse minhas redes:</h2>
 					<a
 						target="_blank"
 						class="apresentacao__links__botao"
 						href="https://github.com/Alexandre-Mir"
-						>GitHub</a
+					>
+						<img src="./assets/github.png" alt="github icon" />
+						GitHub</a
+					>
+					<a
+						target="_blank"
+						class="apresentacao__links__botao"
+						href="https://linkedin.com/in/Alexandre-Mir"
+					>
+						<img src="./assets/linkedin.png" alt="linkedin icon" />
+						LinkedIn</a
 					>
 				</div>
 			</section>
-			<img
-				class="apresentacao__imagem"
-				src="https://media.licdn.com/dms/image/D4D03AQEAs1SCO_el7g/profile-displayphoto-shrink_800_800/0/1670786423604?e=1695254400&v=beta&t=K9NPpnqCFdpIbQaXezMrDvMUKtPggFWLiNKyHnuhIwY"
-				alt="Foto da Joana Santos programando"
-			/>
+			<img class="apresentacao__imagem" src="./assets/Imagem.png" alt="Foto de Alexandre Miranda" />
 		</main>
-		<footer></footer>
+		<footer class="rodape">Desenvolvido por Alexandre Miranda.</footer>
 	</body>
 </html>
